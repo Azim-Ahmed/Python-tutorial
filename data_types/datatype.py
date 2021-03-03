@@ -40,3 +40,13 @@ print(type(d))
 # <class 'set'>
 # <class 'tuple'>
 # <class 'dict'>
+
+# Python is dynamically strongly typed language
+# that would not override the datatype as like as JS. 
+
+n =10 
+print("TEST" + n)
+# you will get error
+
+# You have to change the datatype by yourself
+print("TEST" + str(n)) # that will execute
